@@ -1,0 +1,329 @@
+
+
+* {
+    /* Reset the margin's and padding's */
+    margin: 0;
+    padding: 0;
+    /* Include the padding and order in an element's width/height */
+    box-sizing: border-box;
+}
+
+/* Main Styling */
+
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+
+/* Utility Classes */
+
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+
+}
+
+.text-primary {
+    color: #85C1E9;
+}
+
+.lead {
+    font-size: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    font-size: 18px;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.bg-dark {
+    background: #333;
+    color: #fff;
+}
+
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-primary {
+    background: #f7c08a;
+    color: #333;
+}
+
+.clr {
+    clear: both;
+}
+
+.l-heading {
+    font-size: 40px;
+    line-height: 1.2;
+}
+.index-headling{
+    font-size: 30px;
+}
+.text-primary-index
+{
+    color: #ffab73;
+    font-size: 20px;
+}
+
+/* Padding */
+
+.py-1 { padding: 10px 0; }
+.py-2 { padding: 20px 0; }
+.py-3 { padding: 30px 0; }
+
+/* Light colored button style */
+.btn-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.btn:hover {
+    background: #f7c08a;
+    color: #333;
+}
+
+
+
+.logo:hover{
+    color: #f7c08a;
+    font-size:30px;
+}
+
+/* Navigation Bar */
+
+#navbar {
+    background: #333;
+    color: #fff;
+    overflow: hidden;
+    width: 100%;
+}
+
+#navbar a {
+    color: #fff9;
+
+}
+
+#navbar .logo {
+    float: left;
+    padding-top: 20px;
+
+}
+
+#navbar ul {
+    float: right;
+    list-style: none;
+    
+}
+
+#navbar ul li {
+    float: left;
+
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current{
+    background: #444;
+    color: #85C1E9 ;
+
+}
+
+/* Showcase Styling */
+ #showcase{
+    background: url("../img/grace.gif");
+    height: 610px;
+    background-size: cover;
+    width: 100%; 
+}
+
+#showcase .showcase-content {
+    color: #17202A ;
+    text-align: center;
+    padding-top: 120px;
+}
+
+#showcase .showcase-content h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+    font-family: cursive;
+    font-weight: lighter;
+}
+
+
+/* Home Info Styling */
+#home-info {
+    height: 450px;
+}
+
+#home-info .info-img {
+    float: left;
+    width: 50%;
+    background: url('../img/santorini/jkl.gif') no-repeat;
+    min-height: 100%;
+}
+
+#home-info .info-content {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 100px 30px;
+    overflow: hidden;
+}
+
+#home-info .info-content p {
+    padding-bottom: 30px;
+}
+/* Features Styling */
+
+.box {
+    float: left;
+    width: 25%;
+    padding: 50px;
+    text-align: center;
+    height: 320px;
+}
+
+
+/* About Info */
+
+#about-info .info-right {
+    float: right; 
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-right img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding-left: 100px;
+    border-radius: 100%;
+    
+}
+
+#about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+/* Contact Form */
+
+#contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input, 
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+
+#contact-form textarea {
+    height: 200px;
+}
+
+#contact-form input:focus, 
+#contact-form textarea:focus {
+    outline: none;
+    border-color: #f7c08a;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+}
+
+.column1 {
+    flex: 33.33%; 
+    padding: 2px;
+}
+/* about*/
+.column2{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+}
+ #b1{
+    margin-top: 80px;
+    margin-left: 450px;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border-style: solid bold;
+    cursor: pointer;
+ }
+  #b1:hover{
+    background-color: black;
+    color: #5499C7;
+  }
+
+/*.single_room, img{
+  float: left;
+  padding: 10px;
+}*/
+
+.btn{
+    background-color:#444 ;
+    color: white;
+    border-radius: 20px;
+    align-content: center;
+}
+
+
+
+/* Main Footer */
+
+#main-footer {
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
+}
+.hotel_reserve_box {
+    margin-top: 30px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 60px;
+    padding: 40px 20px;
+    background-color: #f2f2f2;
+}

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Hotel LiLium is the most extraordinary hotel in the Santorini, Greece.">
+    <meta name="keywords" content="hotel, LiLiUM Hotel Santorini, Greece hotel, hotel LiLium">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+    <title>LiLiUM Hotel Santorini | Dining</title>
+
+<style>
+* {box-sizing: border-box;}
+.mySlides{display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow {
+  max-width: 1400px;
+  margin: auto;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+</style>
+
+</head>
+<body>
+    <!-- Header/Main -->
+    <header>
+        <nav id="navbar" style="position: fixed;">
+            <div class="container">
+                <h1 class="logo"><i class="fas fa-infinity"></i><a href="index.html"> LiLiUM Hotel Santorini </a></h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="accomodation.html">Accommodation</a></li>
+                    <li><a class="current" href="dining.html">Dining</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+<div class="slideshow">
+	<div class="mySlides">
+	  <img src="img/f1.jpg" style="width:100%; height: 700px;">
+	  </div>
+
+	<div class="mySlides">
+	  <img src="img/f4.jpg" style="width:100%; height: 700px">
+	</div>
+
+	<div class="mySlides">
+	  <img src="img/f2.jpg" style="width:100%; height: 700px">
+	</div>
+
+	<div class="mySlides">
+	  <img src="img/f5.jpg" style="width:100%; height: 700px">
+	</div>
+
+	<div class="mySlides">
+	  <img src="img/f3.jpg" style="width:100%; height: 700px">
+	</div>
+
+	<div class="mySlides">
+	  <img src="img/f6.jpg" style="width:100%; height: 700px;">
+	</div>
+</div>
+ <div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+<div class="info" style="padding: 80px;">
+		<h1 style="font-family: sans-serif; font-size: 40px;">Dining</h1>
+		<h2 style="font-weight: lighter;">All-day delicious treats</h2>
+		<p>At the Lilium Restaurant, you will start your day with a pass by the breakfast buffet where, every morning, you will find a wide variety of delicious, freshly made treats that will make your mornings in Santorini such a wonderful experience. At lunchtime, snacks and light dishes are prepared fresh to accompany your hours of relaxation by the infinity swimming pool. When dinner time comes, the restaurant is illuminated by the flickering light of candles and the starlight for a romantic and a delicious experience with creative tastes that take you on a delicious journey across the Mediterranean cuisine with the creative touch of the famous Greek chef Dimitris Skarmoutsos, whereas from the bar you will order your favourite drinks and cocktails or a local wine to even more enjoy the natural beauty that surrounds you!. The famous Santorini wines are the perfect complement to your gastronomic experience in Lilium Restaurant!</p>
+</div>
+<section>
+	<div class="row" style="height: 450px;">
+  <div class="column" style="padding-left: 80px;">
+    <h1>THE CHEF</h1>
+    <h2 style="font-weight: lighter;">Meet Chef D. Skarmoutsos</h2>
+    <p style="text-align: left;">Dimitris Skarmoutsos is one of the most famous Greek chefs. With a long experience and a limitless of inspiration, Chef Skarmoutsos creates a menu with creative combinations of exquisite local Greek products that reflect the lusciousness of the Mediterranean cuisine. His immense inspiration finds its perfect expression in the menu of Lilium Restaurant and a stunning spot with amazing views to present his creations, for a memorable and gastronomically complete experience in the restaurant of Lilium Santorini Hotel.</p>
+  </div>
+  <div class="column" style="padding-left:100px;padding-right:40px; ">
+    <img src="img/f7.jpg" style="width:80%; height: 350px; border-radius: 80%">
+  </div>
+</div>
+</section>
+<div class="clr"></div>
+    
+    <!-- Footer -->
+    <footer id="main-footer">
+        <p>Hotel LiLiUM Santorini ©
+            <script>document.write(new Date().getFullYear());</script>. All Rights Reserved.</p>
+    </footer>
+      <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
