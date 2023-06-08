@@ -5,7 +5,6 @@ This is a simple sample website for a hotel page made with HTML5 and CSS3. This 
 
 The purpose of this repository is to get comfortable with basic CSS concepts and attributes, as well as more advanced topics like media queries, pseudo-elements, etc.
 
-The package is completely open source and free to use, as long as it is not re-distributed.
 
 
 ![hotel1](https://user-images.githubusercontent.com/66064372/136348706-f79523f4-9568-4781-b77a-cfa0e6f457ef.PNG)
